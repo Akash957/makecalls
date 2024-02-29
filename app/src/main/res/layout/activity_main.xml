@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/call"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textColorHint="#4CAF50"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        tools:ignore="HardcodedText,TextFields" />
+    <Button
+        android:id="@+id/btnMakeCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Phone Call"
+        android:backgroundTint="#FF5722"
+        android:onClick="onMakeCallButtonClick"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+</LinearLayout>
