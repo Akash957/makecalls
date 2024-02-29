@@ -27,6 +27,14 @@
         android:backgroundTint="#FF5722"
         android:onClick="onMakeCallButtonClick"
         tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/btnMakekCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Phone Call"
+        android:backgroundTint="#FF5722"
+        android:onClick="onMakeCallButtonClick"
+        tools:ignore="MissingConstraints" />
 
 
 
